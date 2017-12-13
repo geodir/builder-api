@@ -1,0 +1,27 @@
+{
+  "name": "@geodir/builder-api",
+  "version": "0.1.0",
+  "description": "Geodir Builder Api",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geodir/builder-api.git"
+  },
+  "keywords": [
+    "Builder",
+    "Geodir",
+    "Maps",
+    "Mapas",
+    "Tematicos",
+    "Analisis"
+  ],
+  "author": "Danilo Nicolas Mendoza Ricaldi <nmendozaricaldi@gmail.com> (https://nmendozaricaldi.github.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/geodir/builder-api/issues"
+  },
+  "homepage": "https://github.com/geodir/builder-api#readme"
+}
