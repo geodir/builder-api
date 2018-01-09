@@ -9,8 +9,8 @@ export const BuilderClient = function (_options, Vue){
 
     this.token = 'you MUST provide an user Private Token or Personal Access Token';
 
-    //this.urlApi = 'http://builder.geodir.co/builder.api';
-    this.urlApi = 'http://192.168.1.117:8777/builder.api';
+    this.urlApi = 'http://builder.geodir.co/builder.api';
+    //this.urlApi = 'http://192.168.1.117:8777/builder.api';
 
     if ( typeof this.options !== 'undefined') {
         if (typeof this.options.token !== 'undefined') {
@@ -19,7 +19,7 @@ export const BuilderClient = function (_options, Vue){
     }
 
     /**
-     * 
+     * Set new tcken
      * @param {String} newToken Token
      */
     this.setToken = (newToken) => {
