@@ -34,3 +34,4 @@ You can also use it in your `.vue` components with `this.$geodirBuilderApi`:
 ```javascript
 this.$geodirBuilderApi.builderTeams([this.myGeodirBuilderData, 'teams'])
 ```
+### Geodir Builder Api
