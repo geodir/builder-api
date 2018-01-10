@@ -1,9 +1,8 @@
 {
-  "name": "builder-api",
-  "version": "1.0.0",
+  "name": "@geodir/builder-api",
+  "version": "0.1.0",
   "description": "Cliente de Builder - API",
-  "author": "kenyo <kenyo.utopika@gmail.com>",
-  "private": true,
+  "author": "Geodir <contacto@geodir.co>",
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
@@ -77,5 +76,22 @@
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geodir/builder-api.git"
+  },
+  "keywords": [
+    "Builder",
+    "Geodir",
+    "Maps",
+    "Mapas",
+    "Tematicos",
+    "Analisis"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/geodir/builder-api/issues"
+  },
+  "homepage": "https://github.com/geodir/builder-api#readme"
 }
