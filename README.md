@@ -17,7 +17,7 @@ In your main application JS file (typically `main.js` if you are using [vue-cli]
 import VueResource from 'vue-resource'
 Vue.use(VueResource)
 
-// import vue-github-api
+// import GeodirBuilderApi
 import GeodirBuilderApi from '@geodir/builder-api'
 Vue.use(GeodirBuilderApi, { token: 'user Personal Access Token' })
 ```
